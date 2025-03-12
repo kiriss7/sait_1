@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --font-family: "Open Sans", sans-serif;
+}
+
+.full {
+    max-width: 1920px;
+    max-height: 1030px;
+    width: 100%;
+    background: #ffffff;
+    background: linear-gradient(90deg, #ffffff 50%, #d9e3ef 0%);
+    z-index: 0;
+    margin: 0 auto;
+}
+
+.gran {
+    margin: 0 auto;
+    width: 1171px;
+    height: 977px;
+    background-image: url(..//img/43357006_6108125272189_6996131095276158976_n\ копия.png);
+    background-repeat: no-repeat;
+    background-position-x: 245px;
+    background-size: 970px;
+    background-position-y: 40px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+}
+
+.left {
+    display: flex;
+    width: 585px;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+}
+
+
+.left_item_1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    border: 2px solid black;
+    padding: 8px 23px;
+    letter-spacing: 0.1em;
+
+}
+
+.left_item_2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0.07em;
+    padding: 8px 23px;
+}
+
+.left_item_3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0.07em;
+    padding: 8px 23px;
+}
+
+.left_item_4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0.07em;
+    padding: 8px 23px ;
+    padding-right: 0;
+}
+
+
+.right_item_2 {
+    padding-left: 15px;
+}
+
+.right_item_3 {
+    padding-left: 15px;
+}
+
+.text_papa {
+    max-width: 585px;
+    padding: 200px 0 0 0;
+    z-index: 3;
+
+}
+
+.title_text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 60px;
+    color: #373737;
+    margin-bottom: 60px;
+}
+
+button {
+    width: 210px;
+    height: 66px;
+    background-color: #000;
+}
+.text_knopka{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    color: #fff;
+}
+.img{
+z-index: 2;
+}
